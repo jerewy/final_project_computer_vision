@@ -1,0 +1,11 @@
+ultralytics
+opencv-python-headless
+matplotlib
+tqdm
+notebook
+jupyterlab
+fastapi
+uvicorn[standard]
+jinja2
+python-multipart
+pandas

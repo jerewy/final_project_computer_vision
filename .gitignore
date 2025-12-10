@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and secrets
+.venv/
+venv/
+ENV/
+.env
+.env.*
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store

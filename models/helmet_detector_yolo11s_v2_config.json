@@ -1,0 +1,32 @@
+{
+  "experiment_id": "Exp3_YOLO11s_light_aug",
+  "run_dir": "c:\\dev\\final_project_computer_vision\\runs\\helmet\\exp3_yolo11s_v2_resplit_light_aug",
+  "model_path": "c:\\dev\\final_project_computer_vision\\models\\helmet_detector_yolo11s_v2.pt",
+  "num_classes": 2,
+  "class_names": [
+    "Helmet",
+    "No Helmet"
+  ],
+  "imgsz": 640,
+  "default_conf": 0.25,
+  "default_iou": 0.45,
+  "test_metrics": {
+    "mAP50": 0.9096103298214371,
+    "mAP50_95": 0.5774043067307609,
+    "precision": 0.922450279173616,
+    "recall": 0.835806024058311,
+    "fps": 127.13964291762476
+  },
+  "train_args": {
+    "epochs": 80,
+    "batch": 16,
+    "imgsz": 640,
+    "device": "0",
+    "optimizer": "auto",
+    "lr0": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "seed": 42,
+    "model": "yolo11s.pt"
+  }
+}

@@ -1,0 +1,8 @@
+path: c:/dev/final_project_computer_vision/dataset_resplit_80_10_10
+train: train/images
+val: val/images
+test: test/images
+nc: 2
+names:
+- Helmet
+- No Helmet

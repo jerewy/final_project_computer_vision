@@ -1,0 +1,44 @@
+[
+  {
+    "id": "Exp1_YOLO11n_no_aug",
+    "config": "no_augmentation",
+    "run_dir": "c:\\dev\\final_project_computer_vision\\runs\\helmet\\yolo11n_v2_resplit_no_aug2",
+    "mAP50": 0.7737282110009673,
+    "mAP50_95": 0.47363786291738696,
+    "precision": 0.8159710837204182,
+    "recall": 0.6920101200313045,
+    "pre_ms": 3.074252674011215,
+    "inf_ms": 3.7202994654485506,
+    "post_ms": 0.6807417111386629,
+    "total_ms": 7.475293850598429,
+    "fps": 133.77400540848916
+  },
+  {
+    "id": "Exp2_YOLO11n_light_aug",
+    "config": "light_augmentation",
+    "run_dir": "c:\\dev\\final_project_computer_vision\\runs\\helmet\\yolo11n_v2_resplit_light_aug",
+    "mAP50": 0.9027110676105838,
+    "mAP50_95": 0.5600657862060293,
+    "precision": 0.9168753617929819,
+    "recall": 0.8255291924888204,
+    "pre_ms": 1.1957989307431713,
+    "inf_ms": 2.6410954548693435,
+    "post_ms": 1.4603898392362709,
+    "total_ms": 5.297284224848786,
+    "fps": 188.7759760575327
+  },
+  {
+    "id": "Exp3_YOLO11s_light_aug",
+    "config": "yolo11s_light_augmentation",
+    "run_dir": "c:\\dev\\final_project_computer_vision\\runs\\helmet\\exp3_yolo11s_v2_resplit_light_aug",
+    "mAP50": 0.9096103298214371,
+    "mAP50_95": 0.5774043067307609,
+    "precision": 0.922450279173616,
+    "recall": 0.835806024058311,
+    "pre_ms": 1.044190106670656,
+    "inf_ms": 5.828127272602639,
+    "post_ms": 0.9930499998683279,
+    "total_ms": 7.865367379141623,
+    "fps": 127.13964291762476
+  }
+]

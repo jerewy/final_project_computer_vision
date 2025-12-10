@@ -1,0 +1,8 @@
+{
+  "config": "light_augmentation",
+  "experiment_name": "yolo11n_v2_resplit_light_aug",
+  "mAP50": 0.9027110676105838,
+  "mAP50_95": 0.5600657862060293,
+  "precision": 0.9168753617929819,
+  "recall": 0.8255291924888204
+}
